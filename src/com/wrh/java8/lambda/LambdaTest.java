@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.*;
 
 /**
- * @description: TODO
+ * @description: 认识Lambda表达式
  * @author Simple
  * @date 2020/11/27
  */
