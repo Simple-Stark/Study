@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
- * 描述内容
+ * JDK动态代理
  *
  * @author Simple
  * @date 2021/4/11 18:40

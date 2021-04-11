@@ -1,7 +1,7 @@
 package com.wrh.desginmodel.proxy;
 
 /**
- * 描述内容
+ * 真实对象
  *
  * @author Simple
  * @date 2021/4/11 18:39

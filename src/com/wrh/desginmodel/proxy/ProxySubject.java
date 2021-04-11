@@ -1,11 +1,10 @@
 package com.wrh.desginmodel.proxy;
 
 /**
- * 描述内容
+ * 静态代理
  *
  * @author Simple
  * @date 2021/4/11 18:39
- * @change 2021/4/11 18:39 by wangruoheng@bonc.com.cn for init
  */
 public class ProxySubject implements Subject {
 

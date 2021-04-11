@@ -3,11 +3,10 @@ package com.wrh.desginmodel.proxy;
 import org.junit.jupiter.api.Test;
 
 /**
- * 描述内容
+ * 测试类
  *
  * @author Simple
  * @date 2021/4/10 18:24
- * @change 2021/4/10 18:24 by wangruoheng@bonc.com.cn for init
  */
 public class ProxyTest {
 
@@ -34,7 +33,7 @@ public class ProxyTest {
     @Test
     public void Test2() {
         ProxyCgLibSubject proxy = new ProxyCgLibSubject();
-        RealOneSubject instance = (RealOneSubject) proxy.getInstance(new RealOneSubject());
+        RealSubject instance = (RealSubject) proxy.getInstance(new RealSubject());
         instance.request();
     }
 }
