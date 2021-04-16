@@ -1,4 +1,4 @@
-package com.wrh.generic;
+package top.simple.stark.generic;
 
 import org.junit.jupiter.api.Test;
 

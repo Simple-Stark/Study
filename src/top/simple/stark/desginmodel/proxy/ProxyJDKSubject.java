@@ -1,4 +1,4 @@
-package com.wrh.desginmodel.proxy;
+package top.simple.stark.desginmodel.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

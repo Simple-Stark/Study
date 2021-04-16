@@ -1,4 +1,4 @@
-package com.wrh.java8.functionInterface;
+package top.simple.stark.java8.functionInterface;
 
 import org.junit.jupiter.api.Test;
 

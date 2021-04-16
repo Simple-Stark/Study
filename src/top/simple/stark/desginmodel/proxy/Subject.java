@@ -1,4 +1,4 @@
-package com.wrh.desginmodel.proxy;
+package top.simple.stark.desginmodel.proxy;
 
 /**
  * 抽象角色

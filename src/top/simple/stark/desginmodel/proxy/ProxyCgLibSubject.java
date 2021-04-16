@@ -1,4 +1,4 @@
-package com.wrh.desginmodel.proxy;
+package top.simple.stark.desginmodel.proxy;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
