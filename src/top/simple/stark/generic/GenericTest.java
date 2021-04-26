@@ -54,4 +54,11 @@ public class GenericTest {
         genericClass1.setObj(11);
         System.out.println("T:Integer :" + genericClass1.getObj());
     }
+
+    @Test
+    public void test4() {
+        GenericMethod.show("hello");
+        GenericMethod.show(18);
+        GenericMethod.show(22.5);
+    }
 }
