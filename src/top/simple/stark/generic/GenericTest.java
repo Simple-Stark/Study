@@ -14,7 +14,7 @@ import java.util.List;
 public class GenericTest {
 
     @Test
-    public void Test1() {
+    public void test1() {
         // 显而易见，编译时就会出现java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
         ArrayList arrayList = new ArrayList();
         arrayList.add("aaaa");
@@ -26,7 +26,7 @@ public class GenericTest {
     }
 
     @Test
-    public void Test2() {
+    public void test2() {
         List<String> stringArrayList = new ArrayList<String>();
         List<Integer> integerArrayList = new ArrayList<Integer>();
 
@@ -41,11 +41,24 @@ public class GenericTest {
     }
 
     @Test
-    public void Test3() {
-        System.out.println();
+    public void test3() {
+        // 创建对象并指定类型
+        GenericClass<String> genericClass = new GenericClass<>();
+        genericClass.setObj("simple");
+        System.out.println("T:String :" + genericClass.getObj());
+
+        // 创建对象并指定类型
+        GenericClass<Integer> genericClass1 = new GenericClass<>();
+        // 传入String类型，编译器就会报错
+        // genericClass1.setObj("simple");
+        genericClass1.setObj(11);
+        System.out.println("T:Integer :" + genericClass1.getObj());
     }
 
-    public <T> T getEventDetails(Integer i) {
-        return (T) i;
+    @Test
+    public void test4() {
+        GenericMethod.show("hello");
+        GenericMethod.show(18);
+        GenericMethod.show(22.5);
     }
 }
