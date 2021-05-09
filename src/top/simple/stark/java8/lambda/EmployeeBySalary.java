@@ -1,8 +1,8 @@
 package top.simple.stark.java8.lambda;
 
 /**
+ * 过滤工资大于4000的
  * @author Simple
- * @description: TODO
  * @date 2020/11/27
  */
 public class EmployeeBySalary implements MyFilterInterface<Employee>{
